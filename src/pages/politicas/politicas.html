@@ -1,0 +1,28 @@
+<!--
+  Generated template for the PoliticasPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Política de Privacidad</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding>
+    <p style="text-align: justify"  >
+        La presente Política de Privacidad establece los términos en que Corporativo STIM usa y protege la información que es proporcionada por sus usuarios al momento de utilizar una aplicación. Esta compañía está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.
+    </p>
+
+    <ion-list>
+        <button ion-item *ngFor="let item of miLista" (click)="openNavDetailsPage(item)" >
+          
+          {{ item.title }}
+        </button>
+      </ion-list>
+      <p>
+          Corporativo STIM Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.
+      </p>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "PineApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
